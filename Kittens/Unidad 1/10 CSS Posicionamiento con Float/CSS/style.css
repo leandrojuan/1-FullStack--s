@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+article {
+    margin: 2rem;
+    background-color: burlywood;
+    padding: 2rem;
+    width: 80vw;
+}
+header {
+    width: 80%;
+    margin: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img {
+    float: right;
+    padding: 0 0 1rem 1.5rem;
+}
+p {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+.capital::first-letter {
+    line-height: normal;
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+    float: left;
+    border-radius: 2px;
+}

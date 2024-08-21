@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.grid-conteiner {
+    font-size: 2rem;
+    height: 100vh;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0em 4em;
+    padding: 1em;
+}
+.item1 {
+    background-color: yellow;
+}
+.item2 {
+    background-color:lightyellow;
+}
+.item3 {
+    background-color:violet ;
+}
+.item4 {
+    background-color: teal;
+}
+.item5 {
+    background-color: lightcoral;
+}
+.item6 {
+    background-color:lightgoldenrodyellow;
+}
+.item7 {
+    background-color:lightskyblue ;
+}
+.item8 {
+    background-color: limegreen;
+}

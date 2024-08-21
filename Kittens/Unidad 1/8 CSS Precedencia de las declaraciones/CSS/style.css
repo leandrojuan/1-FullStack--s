@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+h1{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+div {
+    
+    margin: 60px auto;
+    width: 400px;
+    height: 400px;
+    background-color:turquoise;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+    color: deeppink;
+}
+
+.parrafo {
+    color: blue;
+}

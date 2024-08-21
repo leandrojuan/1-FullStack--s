@@ -1,0 +1,26 @@
+{
+  "name": "kittens",
+  "version": "1.0.0",
+  "description": "proyecto frontend backend de prueba",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "author": "leo juan",
+  "license": "ISC",
+  "dependencies": {
+    "blueimp-md5": "^2.19.0",
+    "cloudinary": "^2.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.18.0",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

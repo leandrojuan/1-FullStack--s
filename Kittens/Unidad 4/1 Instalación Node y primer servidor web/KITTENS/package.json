@@ -1,0 +1,14 @@
+{
+  "name": "kittens",
+  "version": "1.0.0",
+  "description": "proyecto frontend backend de prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leo juan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

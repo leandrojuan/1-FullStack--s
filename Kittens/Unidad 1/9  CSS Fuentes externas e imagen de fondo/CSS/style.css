@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+div {
+    border: 2px dashed rgb(137, 157, 141);
+    margin: 60px auto;
+    width: 600px;
+    height: 400px;
+    background-image: url("../assets/night-1927265__340.jpg");
+    background-size: cover;
+}

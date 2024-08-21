@@ -1,0 +1,14 @@
+<section class="formContainer">
+    <form class="form" action="/login" method="post">
+        <p>Administrador</p>
+         {{#if Message}}
+        <span>{{statusMessage}}</span>
+        {{/if }} 
+        <input name="email" type="text" placeholder="Email..." autocomplete="usernames" >    
+        <input name="password" type="text" placeholder="Contraseña..." autocomplete="current-password">    
+        <div class="btn">
+            <input type="reset" value="Limpiar">
+            <input type="submit">
+        </div>
+    </form>
+</section>

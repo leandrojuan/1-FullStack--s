@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.grid-conteiner {
+    font-size: 2rem;
+    height: 100vh;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0em 4em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 0.5fr 2fr 2fr 2fr 2fr 100px;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "main main main aside"
+    "main main main aside"
+    "article1 article2 article3 aside"
+    "gallery gallery gallery gallery"
+    "footer footer footer footer";
+    column-gap: .5em;
+    row-gap: .4em;
+}
+.item1 {
+    grid-area: nav;
+    background-color: yellow;
+}
+.item2 {
+    grid-area: main;
+    background-color:lightyellow;
+}
+.item3 {
+    grid-area: aside;
+    background-color:violet ;
+}
+.item4 {
+    grid-area: article1;
+    background-color: teal;
+}
+.item5 {
+    grid-area: article2;
+    background-color: lightcoral;
+}
+.item6 {
+    grid-area: article3;
+    background-color:lightgoldenrodyellow;
+}
+.item7 {
+    grid-area: gallery;
+    background-color:lightskyblue ;
+}
+.item8 {
+    grid-area: footer;
+    background-color: limegreen;
+}
+/*Celular*/
+@media screen and (max-width: 576px) {
+    .grid-conteiner {
+        grid-template-columns: 1;
+        grid-template-rows: 50px 200px 0.5fr 0.5fr 0.5fr 100px 50px 100px;
+        grid-template-areas: "nav nav nav nav"
+        "main main main main"
+        "article1 article1 article1 article1"
+        "article2 article2 article2 article2"
+        "article3 article3 article3 article3"
+        "gallery gallery gallery gallery"
+        "aside aside aside aside"
+        "footer footer footer footer ";
+    }
+}
+/*Tablet*/
+@media screen and (min-width: 576px) and (max-width: 920px) {
+    .grid-conteiner {
+        grid-template-columns: 2;
+        grid-template-rows: auto;
+        grid-template-areas: "nav nav nav nav"
+        "main main aside aside"
+        "main main aside aside"
+        "article2 article1 article1 article1"
+        "article3 article3 article3 article3"
+        ". gallery gallery ."
+        "footer footer footer footer ";
+    }
+}

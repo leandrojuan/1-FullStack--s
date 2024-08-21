@@ -1,0 +1,24 @@
+
+<section class="formContainer">
+    <header class="admin-header crud-from">
+		<div>
+            <span>{{user}}</span>
+            <a href="/login/logout/"><input type="buttom" value="logout"></a>
+        </div>
+	</header>
+
+    <form class="form crud-from" action="/admin" method="POST" enctype="multipart/form-data">
+        <input type="text" name="raza" placeholder="Raza..." autofocus required>    
+        <textarea name="caracteristicas" rows="5" placeholder="Caracteristicas..." required></textarea>
+        <textarea name="detalle" rows="10" placeholder="Detalle..." required></textarea>
+
+        <!--Accept restringe el tipo de Archivosque muestra el explorador e archivos-->
+        <label for="imagen">Seleccione una imagen</label>
+        <input id="imagen" type="file" name="imagen" accept=".jpg,.gif,.png" required>
+
+        <div class="btn">
+            <input type="submit" value="Enviar">
+            <a href="/admin"><input type="buttom" value="Cancelar"></a>
+        </div>
+    </form>
+</section>
